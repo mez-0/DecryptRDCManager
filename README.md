@@ -57,6 +57,6 @@ Example **without path**:
 
 ![Without path](./Images/without-path.PNG)
 
-Example **without path**:
+Example **with path**:
 
 ![With path](./Images/with-path.PNG)
