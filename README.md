@@ -39,7 +39,7 @@ Credentials can either be stored in `<credentialsProfile>`, or `<logonCredential
 
 ## Building
 
-After building the solution, `ILMerge.exe` it:
+Make sure the `RDCMan.DLL` reference is added into the solution, and then build it. After building the solution, `ILMerge.exe` it:
 
 ```
 .\ILMerge.exe /out:c:\DecryptRDCManager.exe .\DecryptRDCManager\DecryptRDCManager\bin\Debug\DecryptRDCManager.exe .\DLLs\AxMSTSCLib.dll .\DLLs\MSTSCLib.dll .\DLLs\RDCMan.dll
@@ -57,6 +57,6 @@ Example **without path**:
 
 ![Without path](./Images/without-path.PNG)
 
-Example **without path**:
+Example **with path**:
 
 ![With path](./Images/with-path.PNG)
